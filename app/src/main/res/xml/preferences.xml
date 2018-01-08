@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Working with files">
+        <CheckBoxPreference
+            android:key="@string/pref_openmode"
+            android:title="Open file"
+            android:summary="Open file when application starts" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Font Settings">
+
+        <EditTextPreference
+            android:key="@string/pref_size"
+            android:title="Font size"
+            android:summary="Sets the new font size"
+            android:defaultValue="14"
+            android:dialogTitle="Enter the font size (from 10 to 32)" />
+
+        <ListPreference
+            android:key="@string/pref_style"
+            android:title="Style for the font"
+            android:summary="Sets the style for the font"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Select a font style" />
+
+        <PreferenceScreen
+            android:key="@string/pref_color"
+            android:title="Text color"
+            android:summary="Sets the color for text">
+
+            <CheckBoxPreference
+                android:key="@string/pref_color_black"
+                android:title="Black"
+                android:defaultValue="true"
+                android:summary="Sets the black color" />
+            <CheckBoxPreference
+                android:key="@string/pref_color_red"
+                android:title="Red"
+                android:summary="Sets the red color" />
+            <CheckBoxPreference
+                android:key="@string/pref_color_green"
+                android:title="Green"
+                android:summary="Sets the green color" />
+            <CheckBoxPreference
+                android:key="@string/pref_color_blue"
+                android:title="Blue"
+                android:summary="Sets the blue color" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

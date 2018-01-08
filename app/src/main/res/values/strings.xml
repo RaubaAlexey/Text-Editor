@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TextEditorActivity!</string>
+    <string name="app_name">Text Editor</string>
+    <string name="pref_openmode">Режим открытия</string>
+    <string	name="pref_color">Цвет</string>
+    <string	name="pref_color_black">Черный цвет</string>
+    <string	name="pref_color_red">Красный цвет</string>
+    <string	name="pref_color_green">Зеленый цвет</string>
+    <string	name="pref_color_blue">Синий цвет</string>
+    <string	name="pref_size">Размер</string>
+    <string	name="pref_style">Стиль</string>
+    <string	name="pref_style_regular">Нормальный</string>
+    <string	name="pref_style_bold">Полужирный</string>
+    <string	name="pref_style_italic">Курсив</string>
+</resources>
